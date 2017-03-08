@@ -1,5 +1,9 @@
 # franz-aws-workmail-plugin
-Amazon WorkMail plugin for messeging app Franz
+
+[!latest release](/releases/latest)
+[!license](LICENSE.md)
+
+The minimum required version of Franz to run custom integrations is 4.0.0. You can download the latest version of Franz here.
 
 ## Installation
 1. To install this plugin, clone the repository.
