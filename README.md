@@ -7,7 +7,7 @@ The minimum required version of Franz to run custom integrations is 4.0.0. You c
 
 ## Installation
 1. To install this plugin, use one of the following methods to clone the repository:
-  * Download the zip file from the latest release [![GitHub release](https://img.shields.io/github/release/yoavmmn/franz-aws-workmail-plugin.svg)](https://github.com/yoavmmn/franz-aws-workmail-plugin/releases/latest)
+  * Download the zip file from the [latest release](https://github.com/yoavmmn/franz-aws-workmail-plugin/releases/latest)
   * git: `git clone https://github.com/yoavmmn/franz-aws-workmail-plugin.git`
   * wget: `wget https://github.com/yoavmmn/franz-aws-workmail-plugin/archive/master.zip`
 2. Open the Franz Plugins folder on your machine:
