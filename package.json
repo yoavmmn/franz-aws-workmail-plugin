@@ -9,7 +9,7 @@
     "serviceURL": "https://{teamID}.awsapps.com/mail",
     "serviceName": "Amazon WorkMail",
     "popup": [],
-    "hasNotificationSound": true,
+    "hasNotificationSound": false,
     "hasedirectMessages": false,
     "hasTeamID": true,
     "customURL": false,
