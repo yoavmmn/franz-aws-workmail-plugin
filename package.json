@@ -1,6 +1,6 @@
 {
   "name": "Amazon WorkMail",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Amazon WorkMail for Franz",
   "main": "index.js",
   "author": "Yoav Maman",
@@ -10,7 +10,7 @@
     "serviceName": "Amazon WorkMail",
     "popup": [],
     "hasNotificationSound": false,
-    "hasedirectMessages": false,
+    "hasIdirectMessages": false,
     "hasTeamID": true,
     "customURL": false,
     "hostedOnly": false,
