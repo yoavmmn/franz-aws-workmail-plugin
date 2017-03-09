@@ -14,20 +14,22 @@ module.exports = (Franz, options) => {
   };
 
   const getUnread = () => {
-    reload('click').then((data) => {
-      const nodes = document.getElementsByClassName('giraffe-hierarchy-node-counter');
-      let counter = 0;
+    const nodes = document.getElementsByClassName('giraffe-hierarchy-node-counter');
+    let counter = 0;
 
-      for	(var i = 0; i < nodes.length; i++) {
-        let node = parseInt(nodes[i].innerText);
-        counter += (node > 0) ? node : 0;
-      }
+    for	(var i = 0; i < nodes.length; i++) {
+      let node = parseInt(nodes[i].innerText);
+      counter += (node > 0) ? node : 0;
+    }
 
-      Franz.setBadge(counter);
-    });
+    Franz.setBadge(counter);
   };
 
   if (!window.location.pathname.includes('auth')) {
-    window.setInterval(getUnread, 3000);
+    Franz.loop(getUnread);
+
+    window.setInterval(function() {
+      reload('click');
+    }, 60000);
   }
 };
